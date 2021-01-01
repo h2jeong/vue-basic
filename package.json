@@ -1,0 +1,20 @@
+{
+  "name": "vue-basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/h2jeong/vue-basic.git",
+  "author": "Zoe <heejeong.cho@stryx.co.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12", 
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
