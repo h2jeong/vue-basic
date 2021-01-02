@@ -32,6 +32,6 @@ module.exports = {
     output: {
         filename: '[name].js', // app에 들어간 파일명을 자동으로 넣어주기
         path: path.join(__dirname, 'dist'), // 폴더 경로, 현재 위치(dirname)과 합쳐준다.
-        publicPath: '/dist/', // webpack-dev-server 실행하려면 
+        publicPath: '/dist/', // webpack-dev-server 실행하려면 가상의 경로 지정, 메모리에 저장된 app.js를 불러온다.
     },
 }
