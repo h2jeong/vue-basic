@@ -1,6 +1,7 @@
 import Vue from 'vue';
 // import NumberBaseball from './js/NumberBaseball';
 // import ResponseCheck from './js/ResponseCheck';
-import RockScissorsPaper from './js/RockScissorsPaper';
+// import RockScissorsPaper from './js/RockScissorsPaper';
+import LottoGenerator from './js/LottoGenerator'
 
-new Vue(RockScissorsPaper).$mount('#root')
+new Vue(LottoGenerator).$mount('#root')
