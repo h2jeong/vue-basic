@@ -4,6 +4,7 @@ import Vue from 'vue';
 // import RockScissorsPaper from './js/RockScissorsPaper';
 // import LottoGenerator from './js/LottoGenerator'
 // import TicTacToe from './js/vuex/TicTacToe'
-import MineSweeper from './js/mineSweeper/MineSweeper';
+// import MineSweeper from './js/mineSweeper/MineSweeper';
+import Router from './router/Router';
 
-new Vue(MineSweeper).$mount('#root')
+new Vue(Router).$mount('#root')
